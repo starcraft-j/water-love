@@ -389,7 +389,7 @@
   <?php else : ?>
   <div style="text-align: center; padding: 40px 10px 0;">
     <a style="display:block;  width: 90%; margin: auto;" href="https://waterserver.love/link/frecious.html?type=4" rel="external nofollow" target="_blank">
-      <img src="<?php bloginfo('template_directory'); ?>/img/frecious_slatcafe_f1box_600_500.jpg" alt="">
+      <img src="<?php bloginfo('template_directory'); ?>/img/frecious_slatcafe_f1box_400_400.jpg" alt="">
     </a>
   </div>
   <?php endif; ?>

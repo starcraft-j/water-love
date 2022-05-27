@@ -52,6 +52,7 @@ if($_GET['add']){
   $redirect[37] = "https://h.accesstrade.net/sp/cc?rk=0100h8c8006pd3&add=".$add; //frecious-dewo
   $redirect[38] = "https://h.accesstrade.net/sp/cc?rk=0100opcx006pd3&add=".$add; //frecious-new
   $redirect[39] = "https://h.accesstrade.net/sp/cc?rk=0100opcy006pd3&add=".$add; //frecious-bn
+  $redirect[40] = "https://h.accesstrade.net/sp/cc?rk=0100p2t600bp82&add=".$add; //プレミアムウォーター おかえりキャンペーン
   
 
 

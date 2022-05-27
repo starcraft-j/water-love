@@ -17,6 +17,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <?php } ?>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>ウォーターサーバーラボ.com <?php if (is_front_page()) : echo "| 探し求めていた水サーバーが見つかる！!"; elseif (is_single() || is_page()) : echo "| " ; the_title(); endif; ?></title>
+<meta name="referrer" content="no-referrer-when-downgrade"/>
 <meta name="description" content="ウォーターサーバーどれにしようか迷っていませんか？当サイトは利用目的に合ったウォーターサーバーを条件を指定して検索することができます。また、人気・おすすめのウォーターサーバーランキングをご紹介♪あなたのウォーターサーバー選びをお手伝いします。" />
 <meta name="keywords" content="ウォーターサーバー,ウォーターサーバー ランキング,水 サーバー,水 宅配,天然水" />
 

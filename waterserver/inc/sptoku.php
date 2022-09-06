@@ -221,8 +221,9 @@
     <div class="setu">
       <?php the_field('recommend_description'); ?>
       <img src="<?php bloginfo('template_url'); ?>/img/hakase.png" class="setu-img">
+      <div style="clear:borth"></div>
+
     </div>
-    <div style="clear:borth"></div>
 <?php 
     $campaignTitle = get_field("campaign_title");
     $campaigndesRed = get_field("campaign_description_red");

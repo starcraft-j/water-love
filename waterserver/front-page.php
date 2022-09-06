@@ -103,7 +103,7 @@
                   <?php endif; ?>
                 </td>
                 <td colspan="4" valign="middle" class="text-center">
-                  <h4 class="aka futo"><?php the_field('recommend_gaiyou'); ?></h4><br>
+                  <ul class="aka futo points"><?php the_field('recommend_gaiyou'); ?></ul><br>
                   <a href="<?php the_permalink(); ?>" target="_blank">⇒ <?php the_title(); ?>の詳細・申込はこちら</a>
                 </td>
               </tr>

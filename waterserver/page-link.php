@@ -13,7 +13,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="content-script-type" content="text/javascript" />
-
+<meta name="referrer" content="no-referrer-when-downgrade"/>
 </head>
 <body>
 <!-- Google Tag Manager (noscript) -->
@@ -32,6 +32,8 @@ $url = "";
 				$url = get_sub_field('url2');
 				endwhile;
 			endif;
+		} else if ($_GET['type'] == "smart") {
+			$url = get_post_meta( $link_id, 'mousikomi2_url2', true );
 		} else if ($_GET['type'] == "free") {
 			if( have_rows('mousikomi3',$link_id) ):
 				while( have_rows('mousikomi3',$link_id) ): the_row();

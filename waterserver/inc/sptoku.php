@@ -1,5 +1,7 @@
+
 <tr id="item_name">
   <td colspan="6" class="text-center bblue">
+    
   <h3>
     <img src="<?php bloginfo('template_directory'); ?>/img/rank<?php the_field('recommend_order'); ?>_a.gif" alt="" class="rank-img" />
     <a href="<?php the_permalink(); ?>" rel="external nofollow"><span class="rank-txt"><?php echo get_post($post->ID)->post_title; ?></span></a>
@@ -30,6 +32,12 @@
     <?php endif;
     } ?>
 
+  </td>
+</tr>
+<tr>
+  <td colspan="6" valign="middle" class="text-center">
+    <ul class="aka futo points"><?php the_field('recommend_gaiyou'); ?></ul>
+    <a href="<?php the_permalink(); ?>" target="_blank" class="point-link">⇒ <?php the_title(); ?>の詳細・申込はこちら</a>
   </td>
 </tr>
 <?php $spec = get_field('spec'); ?>
@@ -206,9 +214,15 @@
 </tr>
 <tr>
   <td colspan="6" class="left site_link gazo">
-    <span class="pink"><?php echo get_field("recommend_headline"); ?></span>
-    <hr>
-    <div class="setu"><?php the_field('recommend_description'); ?></div>
+    <span class="pink futo rank-cptext">
+      <?php echo get_field("recommend_headline"); ?>
+    </span>
+
+    <div class="setu">
+      <?php the_field('recommend_description'); ?>
+      <img src="<?php bloginfo('template_url'); ?>/img/hakase.png" class="setu-img">
+    </div>
+    <div style="clear:borth"></div>
 <?php 
     $campaignTitle = get_field("campaign_title");
     $campaigndesRed = get_field("campaign_description_red");

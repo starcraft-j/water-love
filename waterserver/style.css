@@ -157,12 +157,12 @@ td,th{
 .server th,
 .server td{
 	text-align: center;
-	border: 1px solid #666666;}
+	border: 1px solid #c9c0c0;}
 .server .bblue{
 	background-color: #C8E3FF;}
-.server .bblue h3 a,
+/* .server .bblue h3 a,
 .server .bblue h3 img{
-  display: inline-block;}
+  display: inline-block;} */
 .server th{
 	background-color: #E7E7E7;}
 .server .fukid,
@@ -749,8 +749,12 @@ dl.pickup dt{
     margin: 5px;
   }
   a.button {
-    height: auto;
+    height: 80px;
     margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     font-size: 20px;
     position: relative;
   }
@@ -760,5 +764,54 @@ dl.pickup dt{
     right: 14px;
     color: white;
     transform: translateY(-50%);
+  }
+}
+ul.points {
+  margin-left: 1rem;
+  list-style: disc;
+}
+ul.points li {
+  font-weight: bold;
+
+}
+/* sp */
+@media (max-width: 689px) {
+  .bblue h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+  h3 .rank-txt {
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: block;
+  }
+  .point-link {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px 0;
+    display: block;
+    text-align: center;
+  }
+  .rank-cptext {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .setu p {
+    width: 100%;
+    float: left;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(149 197 255);
+  }
+  .setu .setu-img {
+    width: 40px;
+    position: relative;
+    float: right;
+    margin-bottom: -2rem;
+    top: -30px;
+    right: 10px;
   }
 }

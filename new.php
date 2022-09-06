@@ -13,7 +13,7 @@ if($_GET['add']){
   //$redirect[7] = "https://h.accesstrade.net/sp/cc?rk=0100o8bw00bp82&add=".$add; //premium.html　7月1日に戻す
   $redirect[7] = "https://h.accesstrade.net/sp/cc?rk=0100ommr00bp82&add=".$add; //premium.html　7月1日に消す
 
-  $redirect[8] = "http://h.accesstrade.net/sp/cc?rk=0100mxgw00bp82&add=".$add; //suntry.html
+  $redirect[8] = "https://h.accesstrade.net/sp/cc?rk=0100mxgw00bp82&add=".$add; //suntry.html
   $redirect[9] = "http://h.accesstrade.net/sp/cc?rk=0100mnhr00bp82&add=".$add; //creclamio.html
   $redirect[10] = "https://h.accesstrade.net/sp/cc?rk=0100nxsv00bp82&add=".$add; //fujinoyusui.html
 
@@ -27,9 +27,9 @@ if($_GET['add']){
   $redirect[17] = "http://h.accesstrade.net/sp/cc?rk=0100cnwv00bizl&add=".$add; //furele.html
   $redirect[18] = "http://h.accesstrade.net/sp/cc?rk=0100m5wd00bizl&add=".$add; //crecla.html
   $redirect[19] = "http://www.rentracks.jp/adx/r.html?idx=0.1077.64977.934.1555&dna=24616"; //merqulop.html
-  $redirect[20] = "http://h.accesstrade.net/sp/cc?rk=0100cp0500bizl&add=".$add; //hawaiiwater.  
+  $redirect[20] = "http://h.accesstrade.net/sp/cc?rk=0100cp0500bizl&add=".$add; //hawaiiwater.
 
-  $redirect[21] = "http://h.accesstrade.net/sp/cc?rk=0100fk1z006pd3&add=".$add; //oneway.html
+  $redirect[21] = "https://h.accesstrade.net/sp/cc?rk=0100o5io006pd3&add=".$add; //oneway.html
   $redirect[22] = "https://www.hikakude.jp/waterserver/lp/lp0015.html"; //mcmmegumi.html
   $redirect[23] = "https://track.affiliate-b.com/visit.php?guid=ON&a=y4590v-i136246H&p=0805307"; //urunon.html
   $redirect[24] = "http://h.accesstrade.net/sp/cc?rk=0100f44800bizl&add=".$add; //mituuroko.html
@@ -37,13 +37,13 @@ if($_GET['add']){
 
   $redirect[26] = "http://h.accesstrade.net/sp/cc?rk=0100erb300bizl&add=".$add; //alpina-water.html
   $redirect[27] = "http://h.accesstrade.net/sp/cc?rk=0100ax0m006pd3&add=".$add; //b-water.html
-  $redirect[28] = "http://h.accesstrade.net/sp/cc?rk=0100im1l00bp82&add=".$add; //aquaclara.html
+  $redirect[28] = "https://h.accesstrade.net/sp/cc?rk=0100im1l00bp82&add=".$add; //aquaclara.html
   $redirect[29] = "http://h.accesstrade.net/sp/cc?rk=0100ksxs006pd3&add=".$add; //frecious.html
   $redirect[30] = "http://h.accesstrade.net/sp/cc?rk=0100jdv400bizl&add=".$add; //clytia.html
 
   $redirect[31] = "https://h.accesstrade.net/sp/cc?rk=0100hg2w006pd3&add=".$add; //cosmowater.html
   $redirect[32] = "http://ad.isaf.jp/bin/w.x?p=1794&b=544&o=530&s=535"; //aquaclara.html
- 
+
   $redirect[33] = "http://h.accesstrade.net/sp/cc?rk=0100dwak00bp82&add=".$add; //アクアアドバンス
   $redirect[34] = "https://h.accesstrade.net/sp/cc?rk=0100nfqg00bp82&add=".$add; //ベビアクアプラン
 
@@ -53,7 +53,8 @@ if($_GET['add']){
   $redirect[38] = "https://h.accesstrade.net/sp/cc?rk=0100opcx006pd3&add=".$add; //frecious-new
   $redirect[39] = "https://h.accesstrade.net/sp/cc?rk=0100opcy006pd3&add=".$add; //frecious-bn
   $redirect[40] = "https://h.accesstrade.net/sp/cc?rk=0100p2t600bp82&add=".$add; //プレミアムウォーター おかえりキャンペーン
-  
+  $redirect[41] = "https://h.accesstrade.net/sp/cc?rk=0100p5ky006pd3&add=".$add; //cosmp Smartプラス
+
 
 
 

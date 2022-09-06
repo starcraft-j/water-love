@@ -4,6 +4,7 @@
 
 .entry {
     margin-top: 0px;
+    padding: 10px;
 }
 
 .entry .toptitle {
@@ -97,7 +98,6 @@ h3 .rank-img {
 }
 
 h3 .rank-txt {
-    display: inline;
     vertical-align: middle;
     vertical-align: -webkit-baseline-middle;
 }

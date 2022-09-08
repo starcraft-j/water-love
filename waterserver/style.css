@@ -814,4 +814,46 @@ ul.points li {
     top: -30px;
     right: 10px;
   }
+  .campaign {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fffef4;
+    border: 1px solid #eee;
+  }
+  .campaign-title {
+    padding: 4px 0;
+    border: 2px solid #fffef4;
+    /* background-color: #ea6c6c; */
+    text-align: center;
+    color: #fffef4;
+    font-weight: bold;
+    position: relative;
+    background-color: #f75959;
+    opacity: 1;
+    background: repeating-linear-gradient( -45deg, #ff6464, #ff6464 2.5px, #f75959 2.5px, #f75959 12.5px );
+  }
+  .campaign-title:before, .campaign-title:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 50%;
+    background-color: white;
+    top:50%;
+    transform: translateY(-50%);
+  }
+  .campaign-title:before {
+    transform: translateY(-50%) rotate(-20deg);
+    left: 25%;
+  }
+  .campaign-title:after {
+    transform: translateY(-50%) rotate(20deg);
+    right: 25%;
+  }
+  .campaign-des {
+    padding: 10px;
+  }
+  .campaign-des p {
+    font-family: 1.1rem;
+  }
 }

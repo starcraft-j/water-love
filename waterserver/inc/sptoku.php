@@ -209,20 +209,26 @@
 <?php endif; ?>
   </tr>
 <?php endif; ?>
-<tr id="item_name">
+<!-- <tr id="item_name">
   <td colspan="6" class="camp pink left">キャンペーン情報</td>
-</tr>
+</tr> -->
 <tr>
   <td colspan="6" class="left site_link gazo">
-    <span class="pink futo rank-cptext">
+    <!-- <span class="pink futo rank-cptext">
       <?php echo get_field("recommend_headline"); ?>
-    </span>
+    </span> -->
 
     <div class="setu">
       <?php the_field('recommend_description'); ?>
       <img src="<?php bloginfo('template_url'); ?>/img/hakase.png" class="setu-img">
       <div style="clear:borth"></div>
+    </div>
 
+    <div class="campaign">
+      <h4 class="campaign-title">キャンペーン情報</h4>
+      <div class="campaign-des">
+        <?php echo get_field("recommend_headline"); ?>
+      </div>
     </div>
 <?php 
     $campaignTitle = get_field("campaign_title");

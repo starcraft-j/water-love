@@ -31,7 +31,7 @@ $img_name = "/img/search/btn-search-more-long_off.jpg";
               <select name="water_type">
                 <option id="filtering02_01" value="" <?php if ( !isset($_POST['water_type']) || empty($_POST['water_type'])) { echo 'selected="selected"'; } ?>>選択なし</option>
                 <option id="filtering02_02" value="natural" <?php if (isset($_POST['water_type']) && $_POST['water_type'] == 'natural') { echo 'selected="selected"'; } ?>>天然水</option>
-                <option id="filtering02_03" value="ro" <?php if (isset($_POST['water_type']) && $_POST['water_type'] == 'ro') { echo 'selected="selected"'; } ?>>RO水</option>
+                <option id="filtering02_03" value="ro" <?php if (isset($_POST['water_type']) && $_POST['water_type'] == 'ro') { echo 'selected="selected"'; } ?>>RO水・浄水</option>
               </select>
             </label>
           </div>  
@@ -42,8 +42,9 @@ $img_name = "/img/search/btn-search-more-long_off.jpg";
             <label>
               <select name="bottle">
                 <option id="filtering03_01" value="" <?php if ( !isset($_POST['bottle']) || empty($_POST['bottle'])) { echo 'selected="selected"'; } ?>>選択なし</option>
-                <option id="filtering03_02" value="disposable" <?php if (isset($_POST['bottle']) && $_POST['bottle'] == 'disposable') { echo 'selected="selected"'; } ?>>ワンウェイ（使い捨て）方式</option>
-                <option id="filtering03_03" value="returnable" <?php if (isset($_POST['bottle']) && $_POST['bottle'] == 'returnable') { echo 'selected="selected"'; } ?>>リターナブル（返却）方式</option>
+                <option id="filtering03_02" value="disposable" <?php if (isset($_POST['bottle']) && $_POST['bottle'] == 'disposable') { echo 'selected="selected"'; } ?>>ワンウェイ（使い捨て）タイプ</option>
+                <option id="filtering03_03" value="returnable" <?php if (isset($_POST['bottle']) && $_POST['bottle'] == 'returnable') { echo 'selected="selected"'; } ?>>リターナブル（返却）タイプ</option>
+                <option id="filtering03_03" value="Purifiedwater" <?php if (isset($_POST['bottle']) && $_POST['bottle'] == 'Purifiedwater') { echo 'selected="selected"'; } ?>>水道水浄水タイプ</option>
               </select>
             </label>
           </div>  
